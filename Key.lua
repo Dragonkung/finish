@@ -35,6 +35,7 @@ if keychecked == true then
 end
 
 --KeyTest
+local keychecked = false 
 if _G.Key == "Test" then
    keychecked = true
 end
