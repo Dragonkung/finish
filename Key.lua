@@ -1,5 +1,17 @@
+
+
+game.StarterGui:SetCore("SendNotification", {
+      Icon = "";
+      Title = "Kawnew", 
+      Text = "Checking........"
+  })
+  
+  wait(2)
+
+
+
 --เสือก
-local keychecked = false 
+ local keychecked = false 
 if _G.Key == "FGHI-6JKLM-7NOPQ8" then
    keychecked = true
 end
@@ -7,7 +19,13 @@ end
 if keychecked == true then
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Dragonkung/Test/main/kuy.txt"))()
    else
-    game.Players.LocalPlayer:Kick("คีย์ผิด/ไม่มีคีย์")
+    game.StarterGui:SetCore("SendNotification", {
+      Icon = "";
+      Title = "Kawnew", 
+      Text = "Loading..."
+  })
+  
+  wait(2)
 end
 
 --Key2
@@ -19,7 +37,13 @@ end
 if keychecked == true then
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Dragonkung/Test/main/kuy.txt"))()
    else
-    game.Players.LocalPlayer:Kick("คีย์ผิด/ไม่มีคีย์")
+    game.StarterGui:SetCore("SendNotification", {
+      Icon = "";
+      Title = "Kawnew", 
+      Text = "Loading..."
+  })
+  
+  wait(2)
 end
 
 --Key3
@@ -31,7 +55,13 @@ end
 if keychecked == true then
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Dragonkung/Test/main/kuy.txt"))()
    else
-    game.Players.LocalPlayer:Kick("คีย์ผิด/ไม่มีคีย์")
+    game.StarterGui:SetCore("SendNotification", {
+      Icon = "";
+      Title = "Kawnew", 
+      Text = "Loading...."
+  })
+  
+  wait(2)
 end
 
 --KeyTest
@@ -43,5 +73,11 @@ end
 if keychecked == true then
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Dragonkung/Test/main/kuy.txt"))()
    else
-    game.Players.LocalPlayer:Kick("คีย์ผิด/ไม่มีคีย์")
+    game.StarterGui:SetCore("SendNotification", {
+      Icon = "";
+      Title = "Kawnew", 
+      Text = "Loading..."
+  })
+  
+  wait(2)
 end
