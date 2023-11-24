@@ -1,4 +1,4 @@
-
+print("hi")
 
 game.StarterGui:SetCore("SendNotification", {
       Icon = "";
