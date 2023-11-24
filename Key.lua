@@ -3,12 +3,10 @@
 game.StarterGui:SetCore("SendNotification", {
       Icon = "";
       Title = "Kawnew", 
-      Text = "Checking........"
+      Text = "Checking..."
   })
   
   wait(2)
-
-
 
 --เสือก
  local keychecked = false 
@@ -17,66 +15,12 @@ if _G.Key == "FGHI-6JKLM-7NOPQ8" then
 end
 
 if keychecked == true then
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Dragonkung/Test/main/kuy.txt"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Dragonkung/Test/main/Hoihub.txt"))()
    else
     game.StarterGui:SetCore("SendNotification", {
       Icon = "";
       Title = "Kawnew", 
-      Text = "Loading..."
-  })
-  
-  wait(2)
-end
-
---Key2
-local keychecked = false 
-if _G.Key == "UVW1-8XYZ2-0ABC3" then
-   keychecked = true
-end
-
-if keychecked == true then
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Dragonkung/Test/main/kuy.txt"))()
-   else
-    game.StarterGui:SetCore("SendNotification", {
-      Icon = "";
-      Title = "Kawnew", 
-      Text = "Loading..."
-  })
-  
-  wait(2)
-end
-
---Key3
-local keychecked = false 
-if _G.Key == "DEFG-4HIJK-5LMNO" then
-   keychecked = true
-end
-
-if keychecked == true then
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Dragonkung/Test/main/kuy.txt"))()
-   else
-    game.StarterGui:SetCore("SendNotification", {
-      Icon = "";
-      Title = "Kawnew", 
-      Text = "Loading...."
-  })
-  
-  wait(2)
-end
-
---KeyTest
-local keychecked = false 
-if _G.Key == "TEST" then
-   keychecked = true
-end
-
-if keychecked == true then
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Dragonkung/Test/main/kuy.txt"))()
-   else
-    game.StarterGui:SetCore("SendNotification", {
-      Icon = "";
-      Title = "Kawnew", 
-      Text = "Loading..."
+      Text = "Worng Key"
   })
   
   wait(2)
