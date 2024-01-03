@@ -64,7 +64,7 @@ do
     })
 
 
-local section = Tabs.Main:AddSection("// Auto Queust Car Delivery \\\")
+local section = Tabs.Main:AddSection("// Auto Queust Car Delivery \\")
 
     local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Auto Delivery Cars", Default = false })
 
@@ -102,7 +102,7 @@ end
 
     Options.MyToggle:SetValue(false)
 
-local section = Tabs.Main:AddSection("// Auto Queust Food Delivery \\\")
+local section = Tabs.Main:AddSection("// Auto Queust Food Delivery \\")
 
 
     local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Auto Delivery Food", Default = false })
@@ -141,7 +141,7 @@ local section = Tabs.Main:AddSection("// Auto Queust Food Delivery \\\")
 
 Options.MyToggle:SetValue(false)
 
-local section = Tabs.Main:AddSection("// Auto Event \\\")
+local section = Tabs.Main:AddSection("// Auto Event \\")
 
 
 local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Auto Event ", Default = false })
