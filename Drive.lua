@@ -64,7 +64,7 @@ do
     })
 
 
-local section = Tabs.Main:AddSection("// FPS BOOST \\")
+local section = Tabs.a:AddSection("// FPS BOOST \\")
 
     Tabs.a:AddButton({
         Title = "FPS BOOST",
