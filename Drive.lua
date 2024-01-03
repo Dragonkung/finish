@@ -64,6 +64,33 @@ do
     })
 
 
+local section = Tabs.Main:AddSection("// FPS BOOST \\")
+
+    Tabs.a:AddButton({
+        Title = "FPS BOOST",
+        Description = "Boost FPS 10++",
+        Callback = function()
+            Window:Dialog({
+                Title = "Notification",
+                Content = "Turn On?",
+                Buttons = {
+                    {
+                        Title = "ON",
+                        Callback = function()
+   loadstring(game:HttpGet("https://pastebin.pl/view/raw/b93a0d93"))()
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
 local section = Tabs.Main:AddSection("// Auto Queust Car Delivery \\")
 
     local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Auto Delivery Cars", Default = false })
